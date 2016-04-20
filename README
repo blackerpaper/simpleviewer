@@ -1,0 +1,11 @@
+This sample is a simple application which shows depth stream from orbbec camera.
+This is extracted from orbbec/OpenNI2.
+
+To compile OpenNI2:
+cd Packaging && python ReleaseVersion.py Android
+
+The jni library (.so) will be built on Wrappers/java/libs/. Copy everything in there to the jniLibs directory.
+
+The java wrapper is copy-paste from Wrappers/java/src/*
+
+If OpenNI2 library modified, recompile it, and recopy the .so to the jniLibs directory. (Also the wrapper if it is needed)
